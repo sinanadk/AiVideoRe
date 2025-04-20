@@ -1,0 +1,37 @@
+{
+  "name": "ai-content-repurpose",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.26.1",
+    "next": "12.1.6",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "tailwindcss": "^3.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.5",
+    "postcss": "^8.4.6",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "eslintConfig": {
+    "extends": "next"
+  },
+  "browserslist": {
+    "production": [
+      "last 1 version",
+      "> 1%",
+      "maintained node versions",
+      "not dead"
+    ],
+    "development": [
+      "last 1 version",
+      "not dead"
+    ]
+  }
+}
